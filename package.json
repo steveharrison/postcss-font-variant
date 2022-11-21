@@ -1,7 +1,7 @@
 {
   "name": "postcss-font-variant",
   "version": "5.0.0",
-  "description": "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+  "description": "PostCSS plugin to transform W3C font-variant properties to more compatible CSS (font-feature-settings)",
   "keywords": [
     "css",
     "postcss",
@@ -27,10 +27,10 @@
     "tape": "^5.0.0"
   },
   "scripts": {
-    "lint": "npm run jscs && npm run jshint",
+    "lint": "yarn jscs && yarn jshint",
     "jscs": "jscs index.js test/index.js",
     "jshint": "jshint . --exclude-path .gitignore",
-    "test": "npm run lint && tape test",
+    "test": "yarn lint && tape test",
     "release": "npmpub"
   }
 }

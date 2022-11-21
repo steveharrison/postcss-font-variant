@@ -3,30 +3,42 @@ selector {
   font-variant-numeric: tabular-nums;
   font-variant-caps: all-small-caps;
 }
+
 selector {
   font-feature-settings: normal;
   font-variant: normal;
 }
+
 selector {
   font-feature-settings: normal;
   font-variant: normal;
 }
+
+selector {
+  font-feature-settings: normal;
+  font-variant: none;
+}
+
 selector {
   font-feature-settings: inherit;
   font-variant: inherit;
 }
+
 selector {
   font-feature-settings: "smcp", "onum";
   font-variant: small-caps oldstyle-nums;
 }
+
 selector {
   font-feature-settings: "onum", "smcp", "c2sc";
   font-variant: all-small-caps;
 }
+
 selector {
   font-feature-settings: "subs" off, "sups" off;
   font-variant-position: normal;
 }
+
 selector {
   font-feature-settings: "kern";
   font-kerning: normal;

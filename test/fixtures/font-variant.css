@@ -2,26 +2,37 @@ selector {
   font-variant-numeric: tabular-nums;
   font-variant-caps: all-small-caps;
 }
+
 selector {
   font-variant: normal;
 }
+
 selector {
   font-feature-settings: normal;
   font-variant: normal;
 }
+
+selector {
+  font-variant: none;
+}
+
 selector {
   font-variant: inherit;
 }
+
 selector {
   font-variant: small-caps oldstyle-nums;
 }
+
 selector {
   font-feature-settings: "onum";
   font-variant: all-small-caps;
 }
+
 selector {
   font-variant-position: normal;
 }
+
 selector {
   font-kerning: normal;
 }

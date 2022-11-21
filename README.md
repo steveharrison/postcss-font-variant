@@ -66,8 +66,8 @@ Work on a branch, install dev-dependencies, respect coding style & run tests bef
 
     $ git clone https://github.com/postcss/postcss-font-variant.git
     $ git checkout -b patch-1
-    $ npm install
-    $ npm test
+    $ yarn
+    $ yarn test
 
 ## [Changelog](CHANGELOG.md)
 

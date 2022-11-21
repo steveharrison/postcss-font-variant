@@ -47,6 +47,7 @@ const fontVariantProperties = {
   },
 
   "font-variant": {
+    none: "normal",
     normal: "normal",
     inherit: "inherit"
   }
